@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="index.css">
+
+    <!-- <style>
+/*         
+        #Container{
+         width: 400px;
+         height: 400px;
+         background: blueviolet;
+         border: 5px solid black;
+         position: relative;
+         border-radius: 10px;
+        }
+
+        #inside{
+            width: 50px;
+            height: 50px;
+            background: rebeccapurple;
+            border: 2px solid red;
+            position: absolute;
+            border-radius: 10px;
+        }
+        myMove{
+            width: 0;
+            position: 0;
+        } */
+        #MyDive{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(11, 181, 184);
+            border-radius: 15px;
+            border: 2px solid black;
+
+        }
+    </style>  -->
+<!-- 
+    <style>
+        body{
+            padding: 20px;
+            background-color: aqua;
+
+        }
+        div{
+            padding: 20px;
+            background-color: royalblue;
+            width: max-content;
+        }
+
+        span{
+            padding: 20px;
+            background-color: green;
+            display: flex;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <h1>Drom X Out <span style="display: none;">Subscrib</span></h1> -->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, atque?</p> -->
+<!-- 
+    <div> Top 5 Sigmas
+        <ul>
+            <li id="class">Name</li>
+            <li id="class">Address</li>
+            <li>Contact</li>
+            <li>Email</li>
+            <li>Password</li>
+        </ul>
+    </div> -->
+    <!-- <div>
+        <ul>
+            <li class="hero" about="hello">Andrew Tate</li>
+            <li>Keanu</li>
+            <li>Address</li>
+            <li>Contact</li>
+            <li>Gmail</li>
+        </ul>
+    </div>
+    <div style="background-color: blue;border: 5px solid black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quos esse, id earum qui eveniet totam voluptatibus officiis. Quam iure nemo laborum suscipit, incidunt provident sed repellat neque vero alias perspiciatis debitis
+         vitae, veniam cupiditate delectus eum atque odit fugit, ipsa quo sapiente modi hic possimus voluptatem. Reiciendis, libero eaque?</div> -->
+<!-- 
+         <div id="Container">
+            <div id="inside">
+
+            </div>
+            <p><button onclick="myMove()">Click</button></p>
+
+            <script>
+                function myMove(){
+                    let pos=0;
+                    const ele=document.getElementById("inside");
+                    const id=setInterval(frame,10);
+                    function frame(){
+                        if(pos==350){
+                            clearInterval(id);
+                        }
+                        pos++;
+                        ele.style.top = pos+ 'px';
+                        ele.style.left=  pos++ + 'px';
+                    }
+                }
+            </script>
+             </div> -->
+
+             <!-- <div id="MyDive" onmouseover="onMouseOver()"></div>
+                <br>
+               <button onclick="changeColor()">ChangeColor</button>
+               <script>
+                function changeColor(){
+                    var div =document.getElementById("MyDive");
+                    div.style.backgroundColor="green";
+                }
+
+                function onMouseOver(){
+                    var div=docume.getElementById('MyDive');
+                    div.style.backgroundColor="blue";
+                }
+               </script> -->
+
+               <!-- <div id="MyDive"></div>
+                <br>
+                <button onmousedown="changeColorDown()">Change Color</button>
+
+               <script>
+                function changeColorDown(){
+                    var div=document.getElementById("MyDiv");
+                    div.style.backgroundColor="blue";
+                }
+               </script> -->
+
+<!-- 
+               <div>
+                <span>
+                    <button>Click Me</button>
+                </span>
+               </div>
+               <script>
+                const body=document.getElementsByTagName('body')[0];
+                const div=document.getElementsByTagName('div')[0];
+                const button=document.getElementsByTagName('button')[0];
+                const span=document.getElementsByTagName('span')[0];
+
+                body.addEventListener('click',()=>{
+                    console.log("Body was clicked");
+                })
+
+                div.addEventListener('click',()=>{
+                    console.log("Div was clicked");
+                })
+
+
+                button.addEventListener('click',()=>{
+                    console.log(" button Was clicked");
+                })
+
+                spna.addEventListener('click',()=>{
+                    console.log("span was clicked");
+                })
+
+
+               </script> -->
+
+
+               <!-- <div>
+                <span>
+                    <button>Click</button>
+                </span>
+               </div>
+
+               <script>
+                const div =document.getElementsByTagName('div')[0];
+                div.addEventListener('click',(event)=>{
+
+                    if(event.target.tagName=='BUTTON'){
+                        console.log("button Was clicked")
+                    }else if(event.target.tagName=='SPAN'){
+                        console.log("SPAN was clicked");
+                    }else{
+                        console.log("Div Was clicked");
+                    }
+                })
+               </script> -->
+
+
+               <!-- <div id="loc">
+
+               </div>
+
+               <script>
+                let loc=document.getElementById('loc');
+                loc.innerHTML=window.location.assign;
+               </script> -->
+
+               
+    <script src="indes.js"></script>
+</body>
+</html>
